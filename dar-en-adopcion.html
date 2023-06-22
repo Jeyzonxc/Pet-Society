@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dar en adopción | Pet Society</title>
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link href="css/carousel.css" rel="stylesheet">
+  <link href="css/estilos.css" rel="stylesheet">
+
+
+  <!-- Custom styles for this template -->
+</head>
+
+<body>
+  <header class="overflow-hidden">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand text-white fs-2 fw-bold px-5">
+          Pet Society<img src="img/kitty.png" class="logo" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-lg-end" id="navbarCollapse">
+
+          <ul class="navbar-nav mx-5 ">
+            <li class="nav-item mx-2 px-2">
+              <a class="nav-link" href="inicio.html">Inicio</a>
+            </li>
+            <li class="nav-item mx-2 px-2">
+              <a class="nav-link" href="dar-en-adopcion.html"> Dar en Adopción</a>
+            </li>
+            <li class="nav-item mx-2 px-2">
+              <a class="nav-link" href="adoptar.html">Adoptar</a>
+            </li>
+            <li class="nav-item mx-2 px-2">
+              <a class="nav-link" href="#">Donaciones</a>
+            </li>
+            <li class="nav-item mx-2 px-2">
+              <a class="nav-link" href="#">Contacto</a>
+            </li>
+
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+
+  </header>
+
+
+  <main class="bg-chill text-white pt-5">
+    <section class="container">
+      <div class="card py-5 px-5 bg-dark rounded-5">
+        <div class="mx-auto mb-4">
+          <h1 class="fw-bolder">Datos de contacto</h1>
+        </div>
+        <form>
+
+          <div class="row mb-4">
+            <div class="col">
+              <div class="form-outline">
+                <label class="form-label" for="nombres">Nombres</label>
+                <input type="text" id="nombres" class="form-control" placeholder="Juan Andres" />
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="form-outline">
+                <label class="form-label" for="apellidos">Apellidos</label>
+                <input type="text" id="apellidos" class="form-control" placeholder="Silva Gajardo" />
+              </div>
+            </div>
+          </div>
+
+          <!-- Email input -->
+          <div class="form-outline mb-4">
+            <label class="form-label" for="email">Email</label>
+            <input type="email" id="email" class="form-control" placeholder="name@example.com" />
+          </div>
+
+
+          <div class="row mb-4">
+            <label class="form-label" for="email">Seleccion Región y Comuna</label>
+            <div class=" col input-group my-auto h-50">
+              <label class="input-group-text" for="inputGroupSelect01">Región</label>
+              <select class="form-select" id="inputGroupSelect01">
+                <option selected>Seleccionar...</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+
+            <div class="col input-group my-auto h-50">
+
+              <label class="input-group-text" for="inputGroupSelect01">Comuna</label>
+              <select class="form-select" id="inputGroupSelect01">
+                <option selected>Seleccionar...</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+          </div>
+          <!-- Text input -->
+          <div class="form-outline mb-4">
+            <label class="form-label" for="direccion">Dirección</label>
+            <input type="text" id="direccion" class="form-control" placeholder="Calle Anibal Pinto 35, Casa 456" />
+          </div>
+
+
+          <!-- Number input -->
+          <div class="form-outline mb-4">
+            <label class="form-label" for="telefono">Teléfono</label>
+            <input type="number" id="telefono" class="form-control" placeholder="+569 12345678" />
+          </div>
+
+          <div class="mx-auto my-4">
+            <h1 class="fw-bolder">Datos del animal</h1>
+          </div>
+
+
+          <div class="row mb-4">
+            <div class="col">
+              <div class="form-outline">
+                <label class="form-label" for="nombres">Nombre Animal</label>
+                <input type="text" id="nombres" class="form-control" placeholder="Michi" />
+              </div>
+            </div>
+
+            <!-- Email input -->
+            <div class="form-outline mb-4">
+              <label class="form-label" for="email">Email</label>
+              <input type="email" id="email" class="form-control" placeholder="name@example.com" />
+            </div>
+
+
+            <div class="row mb-4"> <!--radios-->
+              <div class="col-4">
+                <label class="form-label">Tipo de animal</label>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="tipo" id="t-perro">
+                  <label class="form-check-label" for="flexRadioDefault1">Perro</label>
+                </div>
+
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="tipo" id="t-gato">
+                  <label class="form-check-label" for="flexRadioDefault2">Gato</label>
+                </div>
+              </div>
+
+              <div class="col-4">
+                <label class="form-label">Género</label>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="genero" id="macho">
+                  <label class="form-check-label" for="flexRadioDefault1">Macho</label>
+                </div>
+
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="genero" id="hembra">
+                  <label class="form-check-label" for="flexRadioDefault2">Hembra</label>
+                </div>
+              </div>
+
+              <div class="col-4">
+                <label class="form-label">Tamaño</label>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="tamano" id="pequeno">
+                  <label class="form-check-label" for="flexRadioDefault1">Pequeño</label>
+                </div>
+
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="tamano" id="mediano">
+                  <label class="form-check-label" for="flexRadioDefault2">Mediano</label>
+                </div>
+
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="tamano" id="grande">
+                  <label class="form-check-label" for="flexRadioDefault2">Grande</label>
+                </div>
+              </div>
+
+              <div class="my-3">
+                <!--radios-->
+                <div class="form-check form-check-inline mx-2">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    ¿Está esterilizado?
+                  </label>
+                </div>
+                <div class="form-check form-check-inline mx-2">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    ¿Tiene chip
+                  </label>
+                </div>
+                <div class="form-check form-check-inline mx-2">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    ¿Tiene las vacunas al día?
+                  </label>
+                </div>
+              </div>
+              <!-- Text input -->
+
+              <div class="mb-3">
+                <label for="formFile" class="form-label">Imagen del animal</label>
+                <input class="form-control" type="file" id="formFile">
+              </div>
+
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Información adicional</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="7"></textarea>
+              </div>
+
+              <!-- Submit button -->
+              
+              <button type="submit" class="btn btn-primary btn-lg w-50 mt-5 mx-auto rounded-5">Dar en adopción 😻🐶💖</button>
+
+        </form>
+
+      </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-dark">
+      <!-- Section: Social media -->
+
+
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto my-5">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-gem me-3 text-secondary"></i>Pet Society
+              </h6>
+              <p>
+                Desde 2015 comprometidos por el bienestar emocional y físico de animales vulnerados.
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto my-5">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                Enlaces de interes
+              </h6>
+              <p>
+                <a href="#!" class="text-reset">Angular</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">React</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Vue</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Laravel</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 my-5">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+              <p><i class="fas fa-home me-3 text-secondary"></i> San Antonio 59, Viña del Mar, Chile</p>
+              <p>
+                <i class="fas fa-envelope me-3 text-secondary"></i>
+                info@ejemplo.com
+              </p>
+              <p><i class="fas fa-phone me-3 text-secondary"></i> +569 912345678</p>
+              <p><i class="fas fa-print me-3 text-secondary"></i> +569 912345678</p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+
+      <!-- Copyright -->
+      <div class="text-center p-1" style="background-color: rgba(0, 0, 0, 0.025);">
+        <p>Realizado con cariño por <span class="fw-bold">Michi Company &copy;</span> Copyright 2023
+      </div>
+
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+  </main>
+  <script type="text/javascript" src="jquery/jquery.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
