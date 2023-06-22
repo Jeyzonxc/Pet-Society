@@ -4,3 +4,14 @@
     height: 70px;
     width: 70px;
 }
+
+.bg-chill{
+    background: linear-gradient(rgba(5, 7, 12, 0.65), rgba(5, 7, 12, 0.65)), url(../img/fon2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bg-degradado{
+    background-image: linear-gradient(0, #00ddff 0, #18a4f8 50%, #1e6faa 100%);
+}
